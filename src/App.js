@@ -19,7 +19,7 @@ function App() {
   };
 
   useEffect(() => {
-    getWord();
+    getWord("켸쎤");
   }, []);
   return (
     <>
