@@ -14,6 +14,5 @@ export const getWord = async (Word) => {
       }
     )
     .then((res) => res.data.items);
-
   return words;
 };
