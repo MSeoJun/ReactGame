@@ -9,18 +9,20 @@ function App() {
     setInputData(e.target.value);
   };
 
-  const onClick = () => {
+  const onClick = async () => {
     if (inputData[0] === word[word.length - 1]) {
-      setword(inputData);
-      setInputData("");
+      const result = await getWord(inputData);
+      if (result.length === 0) {
+        alert("없는단어");
+      } else {
+        setword(inputData);
+        setInputData("");
+      }
     } else {
       alert("오답");
     }
   };
 
-  useEffect(() => {
-    getWord("켸쎤");
-  }, []);
   return (
     <>
       <div>

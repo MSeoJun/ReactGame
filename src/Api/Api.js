@@ -13,6 +13,6 @@ export const getWord = async (Word) => {
         },
       }
     )
-    .then((res) => console.log(res.data));
+    .then((res) => res.data.items);
   return words;
 };
