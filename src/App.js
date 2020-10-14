@@ -13,17 +13,17 @@ function App() {
   const onClick = async () => {
     if (inputData[0] === word[word.length - 1]) {
       const result = await getWord(inputData);
-      setresults(result[0].description.split(".")[0]);
-      console.log('-------results-------');
-      console.log(result[0].description);
       if (result.length === 0) {
         alert("없는단어");
+        setInputData("");
       } else {
         setword(inputData);
         setInputData("");
+        setresults(result[0].description.split(".")[0]);
       }
     } else {
       alert("오답");
+      setInputData("");
     }
   };
 
