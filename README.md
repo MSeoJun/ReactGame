@@ -26,7 +26,7 @@ export const getWord = async (Word) => {
 
 ### 시작단어로 나무가 주어진다.
 
-<img src="./images/WordDesc.png" width="600px" height="300px"></img>
+<img src="./images/WordDesc.png" width="540px" height="300px"></img>
 
 ### 맞는 단어를 입력하면 그 단어의 설명이 나온다.
 
