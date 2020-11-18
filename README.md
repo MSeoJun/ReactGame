@@ -1,6 +1,6 @@
 # React로 끝말잇기 게임 만들기.
 
-## 사전API를 가져와 있는 단어와 없는 단어 알아내기.
+## 사전API가져오기.
 
 ```
 export const getWord = async (Word) => {
