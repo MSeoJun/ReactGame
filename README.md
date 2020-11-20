@@ -22,11 +22,11 @@ export const getWord = async (Word) => {
 
 ## 시작단어
 
-<img src="./images/FirstWord.png" width="540px" height="300px"></img>
+<img src="https://github.com/MSeoJun/React_word_relay_game/blob/main/images/FirstWord.PNG?raw=true" width="540px" height="300px"></img>
 
 ### 시작단어로 나무가 주어진다.
 
-<img src="./images/WordDesc.png" width="540px" height="300px"></img>
+<img src="https://github.com/MSeoJun/React_word_relay_game/blob/main/images/WordDesc.PNG?raw=true" width="540px" height="300px"></img>
 
 ### 맞는 단어를 입력하면 그 단어의 설명이 나온다.
 
@@ -34,11 +34,11 @@ export const getWord = async (Word) => {
 
 ## 없는단어 체크
 
-<img src="./images/NotHaveWord1.png" width="540px" height="300px"></img>
+<img src="https://github.com/MSeoJun/React_word_relay_game/blob/main/images/NotHaveWord1.PNG?raw=true" width="540px" height="300px"></img>
 
 ### 없는단어를 입력하면
 
-<img src="./images/NotHaveWord2.png" width="540px" height="300px"></img>
+<img src="https://github.com/MSeoJun/React_word_relay_game/blob/main/images/NotHaveWord2.PNG?raw=true" width="540px" height="300px"></img>
 
 ### 없는단어라고 Alert를 띄운다.
 
@@ -46,10 +46,10 @@ export const getWord = async (Word) => {
 
 ## 틀린단어
 
-<img src="./images/WrongWord1.png" width="540px" height="300px"></img>
+<img src="https://github.com/MSeoJun/React_word_relay_game/blob/main/images/WrongWord1.PNG?raw=true" width="540px" height="300px"></img>
 
 ### 제시단어의 끝자리와 맞지않는 단어를 입력하면
 
-<img src="./images/WrongWord2.png" width="540px" height="300px"></img>
+<img src="https://github.com/MSeoJun/React_word_relay_game/blob/main/images/WrongWord2.PNG?raw=true" width="540px" height="300px"></img>
 
 ### 오답이라고 Alert를 띄운다.
